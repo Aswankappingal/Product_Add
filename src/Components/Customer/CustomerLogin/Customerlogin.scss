@@ -1,0 +1,111 @@
+.cus-login {
+    .CustRegMain {
+        display: flex;
+        margin-bottom: 20px;
+        .backBtn{
+            color: black;
+            text-decoration: none;
+            margin-left: 2%;
+            margin-top: 4%;
+            font-size: 24px;
+        }
+    }
+
+    .CustRegRight {
+        width: 60%;
+        margin-left: 16%;
+    }
+
+
+    .CustRegRight {
+        h2 {
+            text-align: center;
+            font-weight: 500;
+            margin-top: 70px;
+            color: black;
+        }
+
+        .formMainDiv {
+            margin: auto;
+            // width: 60%;
+            // background-color: red;
+            padding-top: 9%;
+            text-align: center;
+        }
+
+        input {
+            border-bottom: 0.3px solid rgba(0, 0, 0, 0.189);
+            width: 36%;
+            margin-right: 10px;
+            margin-bottom: 30px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            background-color: rgb(235, 234, 233);
+            // text-align: center;
+            border-radius: 10px;
+        }
+
+        textarea:focus,
+        input:focus {
+            outline: none;
+        }
+
+        .photoInput {
+            border: none;
+
+        }
+
+
+
+        .resgiter-btn {
+            width: 90px;
+            height: 40px;
+            margin-bottom: 20px;
+            border: 1px solid rgb(181, 7, 61);
+            background-color: rgb(181, 28, 38);
+            color: rgb(255, 255, 255);
+            border-radius: 6px;
+        }
+
+        .reg-div {
+            // background-color: red;
+            width: 72%;
+            margin: auto;
+            text-align: right;
+        }
+       
+    }
+    .iHaveAccount{
+     
+        font-size: 14px;
+        border: 1px solid rgb(181, 7, 61);
+        background-color: rgb(139, 17, 25);
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding:  4px 50px;
+        margin-bottom: 20px;
+        border-radius: 14px;
+      }
+}
+
+@media(min-width:300px) and (max-width:575px) {
+    .CustRegLeft {
+        display: none;
+    }
+
+    .CustRegRight {
+        width: 100%;
+        margin: auto;
+    }
+    .iHaveAccount{
+     
+        font-size: 14px;
+        border: 1px solid rgb(181, 7, 61);
+        background-color: rgb(139, 17, 25);
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding:  4px 10px;
+        margin-bottom: 20px;
+        border-radius: 14px;
+      }
+}
